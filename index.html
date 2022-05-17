@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>SSC GPA Calculator</title>
+</head>
+<body>
+   <div class="container">
+      <form>
+         <label for="subject-1">Bangla-1</label>
+         <input type="number" min="1" max="5" name="subject-1" class="combined-subject bangla-1"  required>
+
+         <label for="subject-2">Bangla-2</label>
+         <input type="number" min="1" max="5" name="subject-2" class="combined-subject bangla-2"  required>
+
+         <label for="subject-3">English-1</label>
+         <input type="number" min="1" max="5" name="subject-3" class="combined-subject english-1"  required>
+
+         <label for="subject-4">English-2</label>
+         <input type="number" min="1" max="5" name="subject-4" class="combined-subject english-2"  required>
+
+         <label for="subject-5">Math</label>
+         <input type="number" min="1" max="5" name="subject-5" class="main-subject"  required>
+
+         <label for="subject-6">ICT</label>
+         <input type="number" min="1" max="5" name="subject-6" class="main-subject"  required>
+
+         <label for="subject-7">BGS</label>
+         <input type="number" min="1" max="5" name="subject-7" class="main-subject"  required>
+
+         <label for="subject-8">Religion</label>
+         <input type="number" min="1" max="5" name="subject-8" class="main-subject"  required>
+
+         <label for="subject-9">Group Subject 1</label>
+         <input type="number" min="1" max="5" name="subject-9" class="main-subject"  required>
+
+         <label for="subject-10">Group Subject 2</label>
+         <input type="number" min="1" max="5" name="subject-10" class="main-subject"  required>
+
+         <label for="subject-11">Group Subject 3</label>
+         <input type="number" min="1" max="5" name="subject-11" class="main-subject"  required>
+
+         <label for="fourth-subject">4th Subject</label>
+         <input type="number" min="1" max="5" name="fourth-subject" class="fourth-subject" required>
+
+         <div class="bottom">
+            <button type="submit" id="calculate__btn" class="calculate__btn">Calculate!</button>
+            <h4 class="gpa">GPA:</h4>   
+         </div>
+      </form>
+   </div>
+
+   <p id="watermark-name">Sakib UL Hasan</p>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
