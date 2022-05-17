@@ -22,17 +22,17 @@ document.querySelector('.calculate__btn').addEventListener('click', e => {
 
    if (isInputValueGiven()) {
       let totalGPA = 0
-      console.log(totalGPA)
+      // console.log(totalGPA)
    
-      let bangla = parseFloat(document.querySelector('.bangla-1').value) + parseFloat(document.querySelector('.bangla-2').value)
-      bangla = bangla / 2
+      // let bangla = parseFloat(document.querySelector('.bangla-1').value) + parseFloat(document.querySelector('.bangla-2').value)
+      // bangla = bangla / 2
    
-      let english = parseFloat(document.querySelector('.english-1').value) + parseFloat(document.querySelector('.english-2').value)
-      english = english / 2
+      // let english = parseFloat(document.querySelector('.english-1').value) + parseFloat(document.querySelector('.english-2').value)
+      // english = english / 2
    
-      totalGPA += bangla
-      totalGPA += english
-      console.log(totalGPA)
+      // totalGPA += bangla
+      // totalGPA += english
+      // console.log(totalGPA)
    
       Array.from(document.querySelectorAll('.main-subject')).forEach(cur => {
          totalGPA += parseFloat(cur.value)
